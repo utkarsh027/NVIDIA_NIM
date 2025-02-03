@@ -24,4 +24,20 @@ Before running the application, ensure you have the following:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/your-username/nvidia-nim-demo.git
-   cd nvidia-nim-demo
+   ```
+2. **Install the required packages:
+ ```bash
+pip install -r requirements.txt
+```
+3. **Set up the .env file:
+   NVIDIA_API_KEY=your_nvidia_api_key_here
+   
+4. **Place your PDF documents in the ./us_census directory (or any directory you specify in the code):
+
+5. **Run the Streamlit application:
+   ```bash
+   streamlit run app.py
+   ```
+   
+   
+   
